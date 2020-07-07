@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Arbutus Slab", serif !important;
+}
+
+/* ourCommitment section start here */
+.heading {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.heading h1 {
+  font-size: 21px;
+}
+
+.cLine {
+  background-color: #e6316d;
+  height: 2px;
+  width: 100px;
+  margin: auto;
+  margin-top: 4px;
+  border-radius: 10px;
+}
+
+.cBox_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.cBox {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.cBox img {
+  width: 250px;
+}
+
+.cBox1 {
+  height: 19rem;
+}
+
+.cBox2,
+.cBox3 {
+  height: 21rem;
+}
+
+.cBox3 img {
+  width: 190px;
+}
+
+.arrowL1,
+.arrowR1 {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .arrowL1,
+  .arrowR1 {
+    display: block;
+    width: 100px;
+  }
+
+  .arrowL1 {
+    width: 85px;
+    transform: rotate(20.5deg);
+    position: relative;
+    margin-top: -30px;
+    left: 8rem;
+  }
+
+  .arrowR1 {
+    position: relative;
+    right: 8rem;
+    width: 85px;
+    transform: rotate(-21deg);
+  }
+
+  .cBox_wrapper {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .cBox {
+    margin-bottom: 2rem;
+    width: 70%;
+  }
+
+  .cBox1 {
+    height: 16rem;
+  }
+  .cBox2 {
+    height: 18rem;
+  }
+  .cBox3 {
+    height: 18rem;
+  }
+
+  .cBox3 img {
+    width: 160px;
+  }
+
+  .cBox p {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .cBox h2 {
+    font-size: 18px;
+    color: #4b505e;
+  }
+
+  .cBox img {
+    width: 200px;
+  }
+}
